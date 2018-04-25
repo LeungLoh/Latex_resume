@@ -1,0 +1,56 @@
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/huajh/huajh-awesome-latex-cv
+%
+% Author:
+% Junhao Hua
+
+
+%Section: Work Experience at the top
+\sectionTitle{项目经历}{\faCode}
+ 
+\begin{experiences}
+			
+ \experience
+    {2015.05--2017.09}   {基于STM32微电网模拟系统} {单片机开发} {在校研究项目}
+    {}              {
+                      \begin{itemize}
+					    \item[\textbf{>}]  \textbf{职责：}负责单片机软件的程序编写以及部分硬件电路的设计。
+                        \item[\textbf{>}] \textbf{项目简介：}\\
+						本系统以单片机STM32为核心设计微电网模拟系统。由MOSFET管驱动电压型三相全桥逆变电路，通过\textbf{PI闭环}实
+						现高精度稳压控制；利用两片单片机建立相互通信，采用\textbf{过零比较}的方式实现两个逆变器输出电压并联。系统
+						具有“自恢复”型短路保护功能，同时能对电压、频率、电流用液晶加以显示。
+                        \item[\textbf{>}] \textbf{项目成果：}\\
+						1.当一个逆变器工作时负载变化时输出电压稳定24V，频率50HZ，THD<3。\\
+						2.当两个逆变器工作时能共同向负载输出功率，使负载线电流有效值Io达到3A，并且2个逆变器功率1：1分配。\\
+                        %\item \faGithub: 
+                        %\link{https://github.com/huajh/sift}{sift}, 
+                                                                                              
+                      \end{itemize}
+                    }
+                    {stm32, 电力电子}
+  \emptySeparator
+  \experience
+    {2015.05--2017.09}  {仓库安防巡检机器人}{单片机开发}{在校研究项目}
+    {}              {
+                      \begin{itemize}
+					    \item[\textbf{>}] \textbf{职责：}负责该机器人的下位机设计。
+						\item[\textbf{>}] \textbf{项目简介：}\\
+                        该机器人下位机以STM32为核心，其他主要设备由车模，直流电机驱动器、光电开关，人体红外感应模块、火
+						焰探测模块、视频传输模块、WIFI模块等组成，上位机为安卓APP，能对仓库、小区等场所进行实时监控，并
+						将数据返回给上位机。
+                        \item[\textbf{>}] \textbf{项目成果：}\\
+						实现了机器人多路径自动循迹、自定义路径、安防监测、防火监测、实时图像传输、图像截取等功能，并且
+						能通过上位机对其进行远程控制。\\
+                        %\item \faGithub: 
+                        %\link{https://github.com/huajh/sift}{sift}, 
+                                                                                              
+                      \end{itemize}
+                    }
+                    {stm32,机器人,控制}
+                    
+                 
+	
+		
+\end{experiences}
